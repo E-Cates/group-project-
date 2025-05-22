@@ -1058,6 +1058,62 @@
         "name": "NewTiledSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down7",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

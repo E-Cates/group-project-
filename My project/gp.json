@@ -1114,6 +1114,30 @@
         "name": "Walking Down7",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down10",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

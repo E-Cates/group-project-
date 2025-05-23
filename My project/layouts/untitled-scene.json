@@ -632,7 +632,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down5",
+                  "image": "Walking Down8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -668,7 +668,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down6",
+                  "image": "Walking Down9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -704,7 +704,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down7",
+                  "image": "Walking Down10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

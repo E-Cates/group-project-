@@ -1,8 +1,8 @@
 {
   "b": 134,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "outro",
+  "name": "outro",
   "r": 184,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -21,7 +21,50 @@
     "zoomFactor": 0.6244537826600001,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Level_1",
+      "objects": [
+        {
+          "name": "FemaleCharacter4"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewTiledSprite"
+        }
+      ]
+    },
+    {
+      "name": "Level_2",
+      "objects": [
+        {
+          "name": "FemaleCharacter4"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewTiledSprite"
+        }
+      ]
+    },
+    {
+      "name": "Level_3",
+      "objects": [
+        {
+          "name": "FemaleCharacter4"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewTiledSprite"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -118,26 +161,9 @@
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "75bdf98e-1341-47b3-a76c-5413d7f10106",
-      "width": 577,
+      "width": 630,
       "x": 2,
       "y": -3,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": true,
-      "depth": 1,
-      "height": 12,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "09fce346-b92e-4f93-a344-0f18aaa76968",
-      "width": 577,
-      "x": 705,
-      "y": -6,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,8 +213,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "23e3d8c0-ff80-4051-9a9a-bc094232e06c",
       "width": 474,
-      "x": 697,
-      "y": 104,
+      "x": 694,
+      "y": 102,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -205,7 +231,7 @@
       "persistentUuid": "31e63f29-8957-4c45-8f39-5f5418a9fff9",
       "width": 323,
       "x": 1005,
-      "y": 267,
+      "y": 258,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -475,7 +501,7 @@
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "1f085242-756f-4c1d-bd7b-6ceb578ee197",
-      "width": 234,
+      "width": 216,
       "x": 125,
       "y": 619,
       "zOrder": 2,
@@ -493,8 +519,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "50979d03-5961-4518-ab48-b1c883b7e1e5",
       "width": 115,
-      "x": 294,
-      "y": 558,
+      "x": 280,
+      "y": 560,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -580,6 +606,23 @@
       "width": 86,
       "x": 1059,
       "y": 563,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "d4fd260a-5636-4c64-8124-308137651c55",
+      "width": 675,
+      "x": 604,
+      "y": -2,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],

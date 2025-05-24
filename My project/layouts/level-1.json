@@ -1041,6 +1041,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GreenSmallTree1",
+      "persistentUuid": "1c456604-564c-4713-a007-e38bce0f0418",
+      "width": 0,
+      "x": 1340,
+      "y": 284,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

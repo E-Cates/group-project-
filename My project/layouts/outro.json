@@ -670,12 +670,11 @@
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down8",
+                  "image": "Female Character 4_Walking Down_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,27 +690,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down9",
+                  "image": "Female Character 4_Walking Down_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -727,27 +726,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking Down10",
+                  "image": "Female Character 4_Walking Down_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -763,20 +762,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -811,20 +810,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -847,20 +846,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -883,20 +882,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -931,20 +930,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -967,20 +966,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -1003,20 +1002,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -1051,20 +1050,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -1087,20 +1086,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -1123,20 +1122,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]

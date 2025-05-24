@@ -1161,7 +1161,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "string": "Begin",
       "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
       "textAlignment": "center",
@@ -1201,7 +1212,27 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonAnimationName",
+          "type": "ButtonStates::ButtonAnimationName",
+          "Animation": "Animation",
+          "ButtonFSM": "ButtonFSM",
+          "IdleAnimationName": "Idle",
+          "FocusedAnimationName": "Focused",
+          "PressedAnimationName": "Pressed"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1434,12 +1465,21 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
             "Begin",
-            "",
-            "",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsIdle"
+          },
+          "parameters": [
+            "NewSprite",
+            "ButtonFSM",
             ""
           ]
         }
@@ -1453,6 +1493,15 @@
             "",
             "\"level 1\"",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetOutlineEnabled"
+          },
+          "parameters": [
+            "Begin",
+            ""
           ]
         }
       ]
@@ -1612,6 +1661,14 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonAnimationName",
+      "type": "ButtonStates::ButtonAnimationName"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "intro",
   "gdVersion": {
     "build": 228,
     "major": 5,
@@ -1030,7 +1030,7 @@
       {
         "file": "assets/NewTiledSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite.png\"}",
         "name": "NewTiledSprite",
         "smoothed": true,
         "userAdded": false
@@ -1046,7 +1046,7 @@
       {
         "file": "assets/NewSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": false
@@ -1056,6 +1056,229 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Green small tree 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green small tree 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/991824338eff797d81513a2c56d1cadcd6a7ac07dd843d7c6efbc1d8db8e9642_Green small tree 6.png",
+          "name": "Green small tree 6.png"
+        }
+      },
+      {
+        "file": "assets/Long tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Long tree.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/9d58e34117b44c09b7cc915403c7a784385cd9fb125c4a23bd7190f1b07577fa_Long tree.png",
+          "name": "Long tree.png"
+        }
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cloud 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud 8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/8a35cd09be4dfc4399dc4fa080027afa87e160ef4d8f4928ee8609b53c3e2c4e_cloud 8.png",
+          "name": "cloud 8.png"
+        }
+      },
+      {
+        "file": "assets/cloud 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/bc3e162a5fcd01e84c16f028bfc0cf60efc7a37a9f084ba69ddccd29b6c0899b_cloud 6.png",
+          "name": "cloud 6.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Screen Saver.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "03cddacf48c19739f15660520e28550871b2008f033838e1e0a6f28391860ba4_Screen Saver.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Uplifting/03cddacf48c19739f15660520e28550871b2008f033838e1e0a6f28391860ba4_Screen Saver.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Connecting Rainbows.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/World/375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Green Small tree 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Small tree 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/1d345af725d5b523aee8833e2eec9bd317a156eaf54ea03cc20d34bf82849629_Green Small tree 1.png",
+          "name": "Green Small tree 1.png"
+        }
+      },
+      {
+        "file": "assets/Alternative Bush 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alternative Bush 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/e03423a1aabc4510ec401e90391dbb9fd301f51d153b6d3f325da91ce3bdbdf0_Alternative Bush 2.png",
+          "name": "Alternative Bush 2.png"
+        }
+      },
+      {
+        "file": "assets/Red flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red flower.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/47b0fca3b60eb8ab6e0c583ef1905e2ff441150562b47284db38be61d3ec73a4_Red flower.png",
+          "name": "Red flower.png"
+        }
+      },
+      {
+        "file": "assets/Blue flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue flower.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/7b77c8a350999469ddf39a84d6abdde284dce704e159b5635982ac6f6c552195_Blue flower.png",
+          "name": "Blue flower.png"
+        }
+      },
+      {
+        "file": "assets/cactus 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cactus 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/34d5c153bc1ae05c6a5f2b00dad4c5c061d2b15d9697ecf0667b9a33a4fae397_cactus 1.png",
+          "name": "cactus 1.png"
+        }
+      },
+      {
+        "file": "assets/cactus 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cactus 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/7d37033c9befd3a6c2080421e54ff8ed7871b7afee794777bc851eed4afda67b_cactus 3.png",
+          "name": "cactus 3.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
       }
@@ -1071,7 +1294,27 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/intro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/rundown"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/outro"
     }
   ],
   "externalEvents": [],
@@ -1079,6 +1322,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
   "externalLayouts": []

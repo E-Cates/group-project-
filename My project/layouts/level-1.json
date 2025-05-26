@@ -1074,22 +1074,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Timer",
-      "persistentUuid": "43d2bd90-c9fb-4155-a6ce-2ad9813c91df",
-      "width": 0,
-      "x": 1188,
-      "y": 12,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [

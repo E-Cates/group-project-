@@ -888,7 +888,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Female Character 4_Walking Down_1.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/5def1e4d6e843eb301bfded1c0cc9743abda545ea51c1f2648bcba62b85ebeac_Female Character 4_Walking Down_1.png",
@@ -900,7 +900,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Female Character 4_Walking Down_2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/337989bab41ba0e6b59ffed4af41e9e6de626c6f1263f8aa2b7ca0dec3654300_Female Character 4_Walking Down_2.png",
@@ -912,7 +912,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Female Character 4_Walking Down_3.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/712f64993e48e83fad0b51a87d8dbbd18d8607cec09a9330211cf692929b18a6_Female Character 4_Walking Down_3.png",
@@ -1191,7 +1191,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1279,7 +1279,31 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
-        "smoothed": true,
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Down8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Down9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Down10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Down10.png",
+        "smoothed": false,
         "userAdded": false
       }
     ],

@@ -2367,7 +2367,19 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "\"RedTimer\"",
+            "<=",
+            "60"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827590706,
+    "zoomFactor": 0.5468750000000016,
     "windowMask": true
   },
   "objectsGroups": [
@@ -1074,6 +1074,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "d291af39-8232-4aab-86be-d6cb68d0db20",
+      "width": 0,
+      "x": 1191,
+      "y": 13,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1088,6 +1104,7 @@
       "behaviors": [
         {
           "name": "TopDownMovement",
+          "rotateObject": false,
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
@@ -1098,7 +1115,6 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "rotateObject": true,
           "viewpoint": "TopDown"
         },
         {
@@ -2040,7 +2056,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "0",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2063,7 +2079,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "0",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2256,6 +2272,52 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"countdown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"Time: \" +ToString(floor(Variable(countdown)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

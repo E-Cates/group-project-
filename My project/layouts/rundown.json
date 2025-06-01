@@ -1395,39 +1395,11 @@
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "FemaleCharacter4",
-            "NewTiledSprite",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "FemaleCharacter4",
-            "NewSprite",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NewSprite",
+            "TopDownMovement",
             ""
           ]
         }

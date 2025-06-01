@@ -1319,11 +1319,11 @@
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "FemaleCharacter4",
-            "NewTiledSprite",
+            "TopDownMovement",
             ""
           ]
         }
@@ -1331,31 +1331,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "FemaleCharacter4",
-            "NewSprite",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NewSprite",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

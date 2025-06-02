@@ -2421,6 +2421,18 @@
             "CopperRedBar",
             "\"RedTimer\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+            "yes",
+            "40",
+            ""
+          ]
         }
       ]
     },

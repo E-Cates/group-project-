@@ -5,7 +5,7 @@
   "name": "level 1",
   "r": 184,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 233,
   "uiSettings": {
@@ -2400,7 +2400,7 @@
           "parameters": [
             "CopperRedBar",
             "-",
-            "0.009",
+            "0.004999",
             ""
           ]
         }

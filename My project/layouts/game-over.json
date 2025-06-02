@@ -5,7 +5,7 @@
   "name": "game over",
   "r": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 134,
   "uiSettings": {

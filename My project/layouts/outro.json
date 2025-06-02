@@ -5,7 +5,7 @@
   "name": "outro",
   "r": 184,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 233,
   "uiSettings": {
@@ -1315,15 +1315,26 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "PlayMusic"
           },
           "parameters": [
-            "FemaleCharacter4",
-            "TopDownMovement",
+            "",
+            "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+            "yes",
+            "40",
             ""
           ]
         }
@@ -1335,13 +1346,11 @@
       "actions": [
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "",
-            "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
-            "yes",
-            "40",
+            "FemaleCharacter4",
+            "TopDownMovement",
             ""
           ]
         }

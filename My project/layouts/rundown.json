@@ -5,7 +5,7 @@
   "name": "rundown",
   "r": 184,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 233,
   "uiSettings": {
@@ -1391,22 +1391,6 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "FemaleCharacter4",
-            "TopDownMovement",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -1427,6 +1411,22 @@
             "03cddacf48c19739f15660520e28550871b2008f033838e1e0a6f28391860ba4_Screen Saver.aac",
             "yes",
             "40",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FemaleCharacter4",
+            "TopDownMovement",
             ""
           ]
         }

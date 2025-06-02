@@ -5,7 +5,7 @@
   "name": "game over",
   "r": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 134,
   "uiSettings": {
@@ -1997,27 +1997,6 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "FemaleCharacter4",
-            "TopDownMovement",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -2045,26 +2024,15 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "Start",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "",
-            "\"rundown\"",
+            "FemaleCharacter4",
+            "TopDownMovement",
             ""
           ]
         }

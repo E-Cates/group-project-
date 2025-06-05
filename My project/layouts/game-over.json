@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3111974942445208,
+    "zoomFactor": 0.5117784035210186,
     "windowMask": false
   },
   "objectsGroups": [
@@ -873,6 +873,22 @@
       "x": 203,
       "y": 29,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Try_again",
+      "persistentUuid": "4235e909-a21c-4ef1-a792-2360045b0f3a",
+      "width": 0,
+      "x": 522,
+      "y": 276,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1954,6 +1970,48 @@
         "characterSize": 111,
         "color": "255;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Try_again",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Try Again?",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Try Again?",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 60,
+        "color": "255;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1991,6 +2049,9 @@
       },
       {
         "objectName": "over"
+      },
+      {
+        "objectName": "Try_again"
       }
     ]
   },
@@ -2024,7 +2085,19 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Try_again",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -2033,6 +2106,16 @@
           "parameters": [
             "FemaleCharacter4",
             "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"level 1\"",
             ""
           ]
         }

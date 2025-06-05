@@ -119,8 +119,8 @@
       "name": "NewSprite3",
       "persistentUuid": "20af2c83-18e7-4371-8a0f-8ac333ea545e",
       "width": 183,
-      "x": 1128,
-      "y": 561,
+      "x": 989,
+      "y": 309,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -306,8 +306,8 @@
       "name": "NewSprite2",
       "persistentUuid": "f84883cf-5c74-4321-8579-834c1338eafc",
       "width": 204,
-      "x": 1067,
-      "y": 428,
+      "x": 861,
+      "y": 536,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,8 +427,8 @@
       "name": "NewSprite",
       "persistentUuid": "7decb1b5-c4fc-4280-89be-baedb0fe55f5",
       "width": 222,
-      "x": 605,
-      "y": 524,
+      "x": 627,
+      "y": 501,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -461,8 +461,8 @@
       "name": "NewSprite4",
       "persistentUuid": "0599bbb4-5f33-4bbd-8288-dbcf02b71bde",
       "width": 222,
-      "x": 702,
-      "y": 286,
+      "x": 707,
+      "y": 289,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,6 +480,23 @@
       "x": 368,
       "y": 151,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 302,
+      "keepRatio": true,
+      "layer": "",
+      "name": "credits",
+      "persistentUuid": "c004f37b-0720-445c-8f1f-307b526904ce",
+      "width": 301,
+      "x": 995,
+      "y": 572,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1287,6 +1304,48 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "credits",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Made by:\n\nHoi Tong Yeung\n\nEmily Mayer\n\nEmilie Cates",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 27,
+        "g": 22,
+        "r": 26
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Made by:\n\nHoi Tong Yeung\n\nEmily Mayer\n\nEmilie Cates",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 30,
+        "color": "26;22;27"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1309,6 +1368,9 @@
       },
       {
         "objectName": "You_got_your_lambs_"
+      },
+      {
+        "objectName": "credits"
       }
     ]
   },
@@ -1342,7 +1404,19 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene timer\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -1351,6 +1425,16 @@
           "parameters": [
             "FemaleCharacter4",
             "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"credit scene\"",
             ""
           ]
         }

@@ -1131,8 +1131,8 @@
       "name": "NewSprite4",
       "persistentUuid": "73ff7e1c-8b9b-44df-9200-3619df933fc1",
       "width": 63,
-      "x": 38,
-      "y": 214,
+      "x": 27,
+      "y": 568,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -2474,7 +2474,7 @@
           "parameters": [
             "CopperRedBar",
             "-",
-            "0.005",
+            "0.003",
             ""
           ]
         }

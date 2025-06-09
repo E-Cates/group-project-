@@ -1404,6 +1404,22 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FemaleCharacter4",
+            "TopDownMovement",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -1418,16 +1434,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "FemaleCharacter4",
-            "TopDownMovement",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Scene"

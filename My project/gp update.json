@@ -1385,6 +1385,57 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
           "name": "Framed Pixel Red Fill Bar.png"
         }
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cloud 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/cff78f141cb8aff13cc6632c1b6ee7ea9856a6ae8fa1b70f8d9ad9774dd000fb_cloud 3.png",
+          "name": "cloud 3.png"
+        }
+      },
+      {
+        "file": "assets/cloud 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/7f8fc3a402a2c637f619ac523aa6da6c339f3cea38bd25e428c20f757674cc15_cloud 4.png",
+          "name": "cloud 4.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1409,6 +1460,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/rundown"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/instructions"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

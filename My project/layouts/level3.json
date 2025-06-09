@@ -71,7 +71,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 29,
+      "height": 31,
       "keepRatio": true,
       "layer": "",
       "name": "FemaleCharacter4",
@@ -2168,8 +2168,8 @@
       "name": "NewSprite2",
       "persistentUuid": "aeb476cf-c854-4923-b04b-4203d79fda67",
       "width": 74,
-      "x": 605,
-      "y": 193,
+      "x": 618,
+      "y": 196,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -2202,8 +2202,8 @@
       "name": "NewSprite2",
       "persistentUuid": "d30299bc-193c-4c64-bcc0-befac0eb7eca",
       "width": 74,
-      "x": 1096,
-      "y": 115,
+      "x": 1090,
+      "y": 127,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -2321,8 +2321,8 @@
       "name": "NewSprite2",
       "persistentUuid": "d35b5b2e-9a73-46cb-adad-5f0aa0a05164",
       "width": 74,
-      "x": 112,
-      "y": 302,
+      "x": 106,
+      "y": 304,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -2375,6 +2375,125 @@
       "x": 73,
       "y": 14,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "57cca80f-6a58-4137-962d-291e74e7022f",
+      "width": 74,
+      "x": 1054,
+      "y": 493,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "dd615461-a0c2-4a40-ae10-976c4bdb2b7f",
+      "width": 74,
+      "x": 143,
+      "y": 589,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "e26ed563-30e9-4e7f-b369-02c95824c585",
+      "width": 74,
+      "x": 832,
+      "y": 611,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "200da74d-db96-40af-abeb-58d7dc8aa195",
+      "width": 74,
+      "x": 908,
+      "y": 469,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "62d400e1-b1b6-4e24-bc7f-a231333b0130",
+      "width": 74,
+      "x": 1065,
+      "y": 384,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "565a27b8-a5ca-487e-8d23-39e8e3e5b983",
+      "width": 74,
+      "x": 645,
+      "y": 629,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "fd88aed0-f000-4a63-806f-5d4a35e73f7c",
+      "width": 74,
+      "x": 206,
+      "y": 668,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3452,6 +3571,37 @@
             "",
             "\"game over\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "FemaleCharacter4",
+            "NewSprite2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "FemaleCharacter4",
+            "=",
+            "622",
+            "=",
+            "89"
           ]
         }
       ]

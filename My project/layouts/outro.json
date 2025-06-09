@@ -119,8 +119,8 @@
       "name": "NewSprite3",
       "persistentUuid": "20af2c83-18e7-4371-8a0f-8ac333ea545e",
       "width": 183,
-      "x": 989,
-      "y": 309,
+      "x": 1044,
+      "y": 401,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -306,8 +306,8 @@
       "name": "NewSprite2",
       "persistentUuid": "f84883cf-5c74-4321-8579-834c1338eafc",
       "width": 204,
-      "x": 861,
-      "y": 536,
+      "x": 939,
+      "y": 549,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,23 +480,6 @@
       "x": 368,
       "y": 151,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 302,
-      "keepRatio": true,
-      "layer": "",
-      "name": "credits",
-      "persistentUuid": "c004f37b-0720-445c-8f1f-307b526904ce",
-      "width": 301,
-      "x": 995,
-      "y": 572,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1423,13 +1406,37 @@
       "conditions": [
         {
           "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene timer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
             "",
             "\"scene timer\"",
             ">=",
-            "5"
+            "10"
           ]
         }
       ],

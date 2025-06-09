@@ -1349,7 +1349,7 @@
       {
         "file": "assets/NewTiledSprite6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite6.png\"}",
         "name": "NewTiledSprite5",
         "smoothed": true,
         "userAdded": false

@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 124,
   "disableInputWhenNotFocused": true,
   "mangledName": "credit_32scene",
   "name": "credit scene",
-  "r": 209,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 87,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4789341884535246,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,30 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 736,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "97456b23-1ed1-46f6-af22-5ea148ff7ae4",
-      "width": 1303,
-      "x": -8,
-      "y": -3,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 418,
       "keepRatio": true,
       "layer": "",
       "name": "name_one",
       "persistentUuid": "137510e6-d0dc-4f77-9ed6-ae48cf485307",
-      "width": 0,
-      "x": 507,
-      "y": 326,
+      "width": 998,
+      "x": 111,
+      "y": 353,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,8 +69,8 @@
       "name": "NewSprite",
       "persistentUuid": "f324ae43-14b6-4421-90f6-dd127ce7820d",
       "width": 108,
-      "x": 918,
-      "y": 457,
+      "x": 721,
+      "y": 135,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -155,8 +139,8 @@
       "name": "NewSprite",
       "persistentUuid": "f0a24a61-399b-4076-8210-2e5abfec24f6",
       "width": 108,
-      "x": 132,
-      "y": 300,
+      "x": 50,
+      "y": 249,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,8 +157,8 @@
       "name": "NewSprite",
       "persistentUuid": "996aecbd-cffe-4d57-8a1a-f7850822777b",
       "width": 108,
-      "x": 190,
-      "y": 129,
+      "x": 317,
+      "y": 146,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,8 +174,8 @@
       "name": "NewSprite",
       "persistentUuid": "8bd5b355-ce6e-4380-b6f4-f6aa6e748e4e",
       "width": 108,
-      "x": 256,
-      "y": 522,
+      "x": 252,
+      "y": 593,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,8 +208,8 @@
       "name": "NewSprite",
       "persistentUuid": "86e3311b-0877-4a7c-a5e8-31ba34f0038f",
       "width": 108,
-      "x": 74,
-      "y": 474,
+      "x": 48,
+      "y": 506,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,8 +224,8 @@
       "name": "NewSprite",
       "persistentUuid": "afa44f0f-0c1b-4609-bba5-9374ceb57944",
       "width": 0,
-      "x": 640,
-      "y": 360,
+      "x": 841,
+      "y": 607,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,7 +261,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "name_one",
       "smoothed": true,
@@ -286,7 +270,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Made by:\n\nHoi Tong Yeung\n\nEmily Mayer\n\nEmilie Cates",
+      "string": "Made by:\n\nHoi Tong Yeung - Code \n\nEmily Mayer - Code, Character Art and Design\n\nEmilie Cates - Writing, Sound, Scene Background and Puzzle Design",
       "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 50,
@@ -296,12 +280,12 @@
         "r": 255
       },
       "content": {
-        "bold": true,
+        "bold": false,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -309,7 +293,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Made by:\n\nHoi Tong Yeung\n\nEmily Mayer\n\nEmilie Cates",
+        "text": "Made by:\n\nHoi Tong Yeung - Code \n\nEmily Mayer - Code, Character Art and Design\n\nEmilie Cates - Writing, Sound, Scene Background and Puzzle Design",
         "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
@@ -396,7 +380,40 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+            "yes",
+            "40",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
